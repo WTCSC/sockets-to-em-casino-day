@@ -308,7 +308,7 @@ def get_host_decision():
 
 def main():
     # ── CHANGE THIS to the server's LAN IP ─────────────────────────────────
-    HOST = "192.168.1.1"   # <── server's IP (server.py prints it on startup)
+    HOST = "100.68.88.62"   # <── server's IP (server.py prints it on startup)
     PORT = 5555
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
