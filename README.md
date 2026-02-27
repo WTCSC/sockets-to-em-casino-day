@@ -7,7 +7,7 @@ A two-player Texas Hold'em-style poker game built with Python sockets and multit
 ## Installation
 
 1. **Python 3.8+** is required. Download it from https://www.python.org/downloads/  
-   Verify your installation: `python --version`
+   Verify your installation: `python3 --version`
 2. No third-party packages needed — only Python's standard library is used.
 
 ---
@@ -16,13 +16,13 @@ A two-player Texas Hold'em-style poker game built with Python sockets and multit
 
 **Step 1 — Start the server** (do this first, in its own terminal window):
 ```
-python server.py
+python3 server.py
 ```
 You will see the server banner and `Listening on 127.0.0.1:5555`.
 
 **Step 2 — Connect each player** (open a new terminal for each):
 ```
-python client.py
+python3 client.py
 ```
 Both clients must connect before the game begins. The server holds and deals until it has exactly 2 players.
 
